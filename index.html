@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      body > * {
+        visibility: hidden;
+      }
+      header:first-of-type,
+      nav:first-of-type,
+      #shopify-section-header,
+      #shopify-section-announcement,
+      #shopify-section-AnnouncementBar,
+      #shopify-section-header-template {
+        visibility: visible;
+      }
+    </style>
+    <script>
+      window.addEventListener("DOMContentLoaded", function () {
+        document.head.insertAdjacentHTML(
+          "beforeend",
+          `<style>body > *{visibility:visible;}</style>`
+        );
+      });
+    </script>
+    <noscript>
+      <style>
+        body > * {
+          visibility: visible;
+        }
+      </style>
+    </noscript>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Yummy Bootstrap Template - Index</title>
+    <title>EliraSpaCenter</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -195,7 +223,12 @@
                 </p>
 
                 <div class="position-relative mt-4">
-                  <img src="assets/img/about-2.jpg" class="img-fluid" alt="" />
+                  <img
+                    src="assets/img/about-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                    loading="lazy"
+                  />
                   <a
                     href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                     class="glightbox play-btn"
@@ -412,6 +445,7 @@
                       src="assets/img/menu/menu-item-1.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Magnam Tiste</h4>
                   <p class="ingredients">
@@ -427,6 +461,7 @@
                       src="assets/img/menu/menu-item-2.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Aut Luia</h4>
                   <p class="ingredients">
@@ -442,6 +477,7 @@
                       src="assets/img/menu/menu-item-3.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Est Eligendi</h4>
                   <p class="ingredients">
@@ -457,6 +493,7 @@
                       src="assets/img/menu/menu-item-4.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Eos Luibusdam</h4>
                   <p class="ingredients">
@@ -472,6 +509,7 @@
                       src="assets/img/menu/menu-item-5.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Eos Luibusdam</h4>
                   <p class="ingredients">
@@ -487,6 +525,7 @@
                       src="assets/img/menu/menu-item-6.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Laboriosam Direva</h4>
                   <p class="ingredients">
@@ -512,6 +551,7 @@
                       src="assets/img/menu/menu-item-1.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Magnam Tiste</h4>
                   <p class="ingredients">
@@ -527,6 +567,7 @@
                       src="assets/img/menu/menu-item-2.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Aut Luia</h4>
                   <p class="ingredients">
@@ -542,6 +583,7 @@
                       src="assets/img/menu/menu-item-3.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Est Eligendi</h4>
                   <p class="ingredients">
@@ -557,6 +599,7 @@
                       src="assets/img/menu/menu-item-4.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Eos Luibusdam</h4>
                   <p class="ingredients">
@@ -572,6 +615,7 @@
                       src="assets/img/menu/menu-item-5.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Eos Luibusdam</h4>
                   <p class="ingredients">
@@ -587,6 +631,7 @@
                       src="assets/img/menu/menu-item-6.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Laboriosam Direva</h4>
                   <p class="ingredients">
@@ -612,6 +657,7 @@
                       src="assets/img/menu/menu-item-1.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Magnam Tiste</h4>
                   <p class="ingredients">
@@ -627,6 +673,7 @@
                       src="assets/img/menu/menu-item-2.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Aut Luia</h4>
                   <p class="ingredients">
@@ -642,6 +689,7 @@
                       src="assets/img/menu/menu-item-3.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Est Eligendi</h4>
                   <p class="ingredients">
@@ -657,6 +705,7 @@
                       src="assets/img/menu/menu-item-4.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Eos Luibusdam</h4>
                   <p class="ingredients">
@@ -672,6 +721,7 @@
                       src="assets/img/menu/menu-item-5.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Eos Luibusdam</h4>
                   <p class="ingredients">
@@ -687,6 +737,7 @@
                       src="assets/img/menu/menu-item-6.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Laboriosam Direva</h4>
                   <p class="ingredients">
@@ -712,6 +763,7 @@
                       src="assets/img/menu/menu-item-1.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Magnam Tiste</h4>
                   <p class="ingredients">
@@ -727,6 +779,7 @@
                       src="assets/img/menu/menu-item-2.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Aut Luia</h4>
                   <p class="ingredients">
@@ -742,6 +795,7 @@
                       src="assets/img/menu/menu-item-3.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Est Eligendi</h4>
                   <p class="ingredients">
@@ -757,6 +811,7 @@
                       src="assets/img/menu/menu-item-4.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Eos Luibusdam</h4>
                   <p class="ingredients">
@@ -772,6 +827,7 @@
                       src="assets/img/menu/menu-item-5.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Eos Luibusdam</h4>
                   <p class="ingredients">
@@ -787,6 +843,7 @@
                       src="assets/img/menu/menu-item-6.png"
                       class="menu-img img-fluid"
                       alt=""
+                      loading="lazy"
                   /></a>
                   <h4>Laboriosam Direva</h4>
                   <p class="ingredients">
@@ -842,6 +899,7 @@
                         src="assets/img/testimonials/testimonials-1.jpg"
                         class="img-fluid testimonial-img"
                         alt=""
+                        loading="lazy"
                       />
                     </div>
                   </div>
@@ -878,6 +936,7 @@
                         src="assets/img/testimonials/testimonials-2.jpg"
                         class="img-fluid testimonial-img"
                         alt=""
+                        loading="lazy"
                       />
                     </div>
                   </div>
@@ -914,6 +973,7 @@
                         src="assets/img/testimonials/testimonials-3.jpg"
                         class="img-fluid testimonial-img"
                         alt=""
+                        loading="lazy"
                       />
                     </div>
                   </div>
@@ -950,6 +1010,7 @@
                         src="assets/img/testimonials/testimonials-4.jpg"
                         class="img-fluid testimonial-img"
                         alt=""
+                        loading="lazy"
                       />
                     </div>
                   </div>
@@ -1041,6 +1102,7 @@
                     src="assets/img/chefs/chefs-1.jpg"
                     class="img-fluid"
                     alt=""
+                    loading="lazy"
                   />
                   <div class="social">
                     <a href=""><i class="bi bi-twitter"></i></a>
@@ -1073,6 +1135,7 @@
                     src="assets/img/chefs/chefs-2.jpg"
                     class="img-fluid"
                     alt=""
+                    loading="lazy"
                   />
                   <div class="social">
                     <a href=""><i class="bi bi-twitter"></i></a>
@@ -1105,6 +1168,7 @@
                     src="assets/img/chefs/chefs-3.jpg"
                     class="img-fluid"
                     alt=""
+                    loading="lazy"
                   />
                   <div class="social">
                     <a href=""><i class="bi bi-twitter"></i></a>
@@ -1276,6 +1340,7 @@
                     src="assets/img/gallery/gallery-1.jpg"
                     class="img-fluid"
                     alt=""
+                    loading="lazy"
                 /></a>
               </div>
               <div class="swiper-slide">
@@ -1287,6 +1352,7 @@
                     src="assets/img/gallery/gallery-2.jpg"
                     class="img-fluid"
                     alt=""
+                    loading="lazy"
                 /></a>
               </div>
               <div class="swiper-slide">
@@ -1298,6 +1364,7 @@
                     src="assets/img/gallery/gallery-3.jpg"
                     class="img-fluid"
                     alt=""
+                    loading="lazy"
                 /></a>
               </div>
               <div class="swiper-slide">
@@ -1309,6 +1376,7 @@
                     src="assets/img/gallery/gallery-4.jpg"
                     class="img-fluid"
                     alt=""
+                    loading="lazy"
                 /></a>
               </div>
               <div class="swiper-slide">
@@ -1320,6 +1388,7 @@
                     src="assets/img/gallery/gallery-5.jpg"
                     class="img-fluid"
                     alt=""
+                    loading="lazy"
                 /></a>
               </div>
               <div class="swiper-slide">
@@ -1331,6 +1400,7 @@
                     src="assets/img/gallery/gallery-6.jpg"
                     class="img-fluid"
                     alt=""
+                    loading="lazy"
                 /></a>
               </div>
               <div class="swiper-slide">
@@ -1342,6 +1412,7 @@
                     src="assets/img/gallery/gallery-7.jpg"
                     class="img-fluid"
                     alt=""
+                    loading="lazy"
                 /></a>
               </div>
               <div class="swiper-slide">
@@ -1353,6 +1424,7 @@
                     src="assets/img/gallery/gallery-8.jpg"
                     class="img-fluid"
                     alt=""
+                    loading="lazy"
                 /></a>
               </div>
             </div>
